@@ -8,11 +8,11 @@ public class Main {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         try {
-            System.out.println("5Input volume");
+            System.out.println("Сумма?");
             int volume = Integer.parseInt(reader.readLine());
-            System.out.println("Input source year");
+            System.out.println("Из какого года?");
             int soursrYear = Integer.parseInt(reader.readLine());
-            System.out.println("Input destination year");
+            System.out.println("В какой год");
             int destYear = Integer.parseInt(reader.readLine());
             Converter converter = new Converter();
             Float res = converter.convert(volume, soursrYear, destYear);
